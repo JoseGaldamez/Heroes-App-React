@@ -1,0 +1,16 @@
+.card-columns{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.card-columns .card{
+    width: 31%;
+    margin: 1%;
+    min-width: 350px;
+}
+
+
+
+

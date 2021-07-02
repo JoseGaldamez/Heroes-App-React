@@ -5,5 +5,5 @@ import HeroesApp from './HeroesApp';
 
 ReactDOM.render(
     <HeroesApp />,
-  document.getElementById('root')
+    document.getElementById('root')
 );

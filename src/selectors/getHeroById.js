@@ -2,11 +2,7 @@ import { heroes } from '../data/heroes';
 
 export const getHeroById = (id) => {
 
-    const hero = heroes.find(hero => heroes.id === id);
+    const hero = heroes.find(hero => hero.id === id); 
 
-    if (!hero) {
-        throw new Error("Id no encontrado");
-    }
-
-    return hero[0];
+    return hero;
 }
