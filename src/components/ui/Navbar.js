@@ -19,9 +19,9 @@ const Navbar = () => {
                     <li className="nav-item">
                     <NavLink to="/dc" className="nav-link" >DC</NavLink>
                     </li>
-                    {/* <li className="nav-item">
+                    <li className="nav-item">
                     <NavLink to="/search" className="nav-link" >Search</NavLink>
-                    </li> */}
+                    </li>
                 </ul>
                 <span className="navbar-text">
                     <NavLink to="/login" className="nav-link" >Logout</NavLink>
