@@ -38,7 +38,7 @@ function HeroScreen({history}) {
     return (
         <div className="row mt-5">
             <div className="col-4">
-                <img src={ '../assets/'+heroId+'.jpeg'} alt={ superhero } className="img-thumbnail animate__animated animate__backInLeft" />
+                <img src={ 'https://raw.githubusercontent.com/JoseGaldamez/Heroes-App-React/main/docs/assets/'+heroId+'.jpeg'} alt={ superhero } className="img-thumbnail animate__animated animate__backInLeft" />
             </div>
 
             <div className="col-8">
