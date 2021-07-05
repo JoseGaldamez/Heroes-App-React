@@ -8,7 +8,7 @@ const HeroCard = ( {hero} ) => {
         <div className="card lg-3">
             <div className="row no-gutters">
                 <div className="col-md-4">
-                    <img src={ './assets/'+hero.id+'.jpeg' } className="card-img" alt={ './assets/'+hero.id+'.jpeg' } />
+                    <img src={ 'https://raw.githubusercontent.com/JoseGaldamez/Heroes-App-React/main/docs/assets/'+hero.id+'.jpeg' } className="card-img" alt={ './assets/'+hero.id+'.jpeg' } />
                 </div>
                 <div className="col-md-8">
                     <div className="card-body">
