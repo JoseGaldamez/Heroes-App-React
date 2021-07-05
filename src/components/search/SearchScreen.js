@@ -63,7 +63,10 @@ const SearchScreen = ({history}) => {
                             (q === undefined) && <div className="alert alert-info">Search a hero</div>
                         }
                         {
-                            (heroesFiltered.length === 0 && q !== undefined) && <div className="alert alert-info">Hero no found</div>
+                            (heroesFiltered.length === 0 && q !== '' && q !== undefined ) && <div className="alert alert-warning">There are no heroes with: {q} </div>
+                        }
+                         {
+                            (heroesFiltered.length === 0 && q === '') && <div className="alert alert-info">Search a hero</div>
                         }
                 </div>
             </div>

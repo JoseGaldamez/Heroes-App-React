@@ -1,6 +1,6 @@
 import { heroes } from '../data/heroes'
 
-const getHeroesByName = (name) => {
+const getHeroesByName = (name = '') => {
 
     if (name === '') {
         return [];
