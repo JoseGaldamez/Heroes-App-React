@@ -19,6 +19,7 @@ function DashboardRouters() {
     return (
         <>
             <Navbar />
+
             <div className="container mt-5">
                 <Switch>
                     <Route exact path="/" component={ HeroesAllScreen } />

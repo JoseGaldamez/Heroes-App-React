@@ -2,7 +2,6 @@ import React, { useMemo, useState } from 'react';
 import queryString from 'query-string';
 
 import { useLocation } from 'react-router-dom';
-import { heroes } from '../../data/heroes';
 import HeroCard from '../heroes/HeroCard';
 import getHeroesByName from '../../selectors/getHeroesByName';
 
@@ -42,7 +41,6 @@ const SearchScreen = ({history}) => {
             <div className="row">
                 <div className="col-5">
                     <h4>Form</h4>
-                    <h4 />
                     <form onSubmit={handlerSearch}>
                         <input value={search} name="search" onChange={handlerChangeSearch} type="search" placeholder="Find your hero" className="form-control" />
 
